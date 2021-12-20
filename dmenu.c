@@ -811,6 +811,7 @@ main(int argc, char *argv[])
 		readstdin();
 		grabkeyboard();
 	}
+	load_colors();
 	setup();
 	run();
 
